@@ -18,20 +18,20 @@ const Portfolio = () => {
             <div className="md:flex flex-row">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white flex-1">
                 <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">
-                  Sonic The Hedgehog
+                  Freelayer
                 </h3>
                 <p className="py-2">
-                  I created a mobile first website about Sonic as my first ever
-                  project.
+                  As a group we designed and created a website that showcases our client's needs.
                 </p>
                 <h4 className="py-4 text-teal-600">Tools I Used</h4>
-                <p className="text-gray-800 py-1">Vanilla JavaScript</p>
-                <p className="text-gray-800 py-1">HTML</p>
-                <p className="text-gray-800 py-1">CSS</p>
+                <p className="text-gray-800 py-1">NextJS</p>
+                <p className="text-gray-800 py-1">Figma</p>
+                <p className="text-gray-800 py-1">Tailwind</p>
+                
                 <div className="flex justify-center gap-2">
                   <button className=" bg-slate-600 text-white px-4 py-2 rounded-md mt-5 border">
                     <a
-                      href="https://github.com/BahramAlz/sonicmobile"
+                      href="https://github.com/Kristallers/horses"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -40,41 +40,7 @@ const Portfolio = () => {
                   </button>
                   <button className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 rounded-md mt-5">
                     <a
-                      href="https://sonic-madebybahram.netlify.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Live Demo
-                    </a>
-                  </button>
-                </div>
-              </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white flex-1">
-                <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">
-                  Quote-Gen
-                </h3>
-                <p className="py-2">
-                  I created a simple quote generator as my second project.
-                </p>
-                <h4 className="py-4 text-teal-600">Tools I Used</h4>
-                <p className="text-gray-800 py-1">Vanilla JavaScript</p>
-                <p className="text-gray-800 py-1">API</p>
-                <p className="text-gray-800 py-1">HTML</p>
-                <p className="text-gray-800 py-1">CSS</p>
-
-                <div className="flex justify-center gap-2">
-                  <button className=" bg-slate-600 text-white px-4 py-2 rounded-md mt-5 border">
-                    <a
-                      href="https://github.com/BahramAlz/Quote-Gen"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Github
-                    </a>
-                  </button>
-                  <button className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 rounded-md mt-5">
-                    <a
-                      href="https://guessing-game-madebybahram.netlify.app/"
+                      href="https://horses-steel.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

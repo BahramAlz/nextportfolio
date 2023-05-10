@@ -9,11 +9,14 @@ import { useState } from "react";
 import Footer from "@/components/Footer";
 import Experiences from "@/components/Experiences";
 import Portfolio from "@/components/Portfolio";
+import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
+    
+
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Bahram Al-Zuhairi Portfolio</title>
@@ -52,6 +55,7 @@ export default function Home() {
               programming and content needs. Join me down below and let's get
               cracking!
             </p>
+            <Link href="/about"><button className="bg-gradient-to-r from-cyan-500 text- to-teal-500 border ">About Me</button></Link>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
                 href="https://github.com/BahramAlz?tab=repositories"

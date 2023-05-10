@@ -68,12 +68,23 @@ const Experiences = () => {
               <h3 className="text-lg font-medium pb-2 font-burtons text-center">
                 Backend Developement
               </h3>
-              <div className="flex">
-                <BsPatchCheckFill className="text-teal-600 mt-1" />
-                <div className="ml-3">
-                  <h4>Python</h4>
-                  <small className="text-gray-600">Beginner</small>
+              <div className="flex flex-wrap gap-16 mt-8">
+                <div className="flex">
+                  <BsPatchCheckFill className="text-teal-600 mt-1" />
+                  <div className="ml-3">
+                    <h4>Node JS</h4>
+                    <small className=" text-gray-600">Beginner</small>
+                  </div>
                 </div>
+
+                <div className="flex">
+                  <BsPatchCheckFill className="text-teal-600 mt-1" />
+                  <div className="ml-3">
+                    <h4>Python</h4>
+                    <small className="text-gray-600">Beginner</small>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
