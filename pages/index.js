@@ -15,8 +15,6 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    
-
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Bahram Al-Zuhairi Portfolio</title>
@@ -34,10 +32,7 @@ export default function Home() {
                   className=" cursor-pointer text-2xl"
                 />
               </li>
-              <li className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 rounded-md ml-8 gap-2 flex items-center ">
-                <AiOutlineDownload className="cursor-pointer text-2xl" />
-                <a href="#">Resume</a>
-              </li>
+              
             </ul>
           </nav>
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
@@ -53,9 +48,9 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Front-end Developer student providing services for front-end
               programming and content needs. Join me down below and let's get
-              cracking!
+              cracking! <Link href="/about" className=" text-teal-400">About Me</Link>
             </p>
-            <Link href="/about"><button className="bg-gradient-to-r from-cyan-500 text- to-teal-500 border ">About Me</button></Link>
+            
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
                 href="https://github.com/BahramAlz?tab=repositories"
