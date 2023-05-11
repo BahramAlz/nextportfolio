@@ -1,4 +1,9 @@
 import React from 'react'
+import {TbBrandNextjs, TbBrandTailwind, TbBrandFigma} from 'react-icons/tb'
+import {FaReact} from 'react-icons/fa'
+import {DiJavascript, DiCss3} from 'react-icons/di'
+import {BsFiletypeHtml} from 'react-icons/bs'
+import Link from 'next/link'
 
 const Portfolio = () => {
 	return (
@@ -14,19 +19,22 @@ const Portfolio = () => {
               for the sake of experimenting, learning and consumer use.
             </p>
           </div>
-          <div className="lg:flex gap-10 flex-col">
+          <div className="lg:flex gap-10 flex-col justify-center items-center">
             <div className="md:flex flex-row">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white flex-1">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white md:w-96 lg:w-96">
                 <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">
                   Freelayer
                 </h3>
                 <p className="py-2">
                   As a group we designed and created a website that showcases our client's needs.
                 </p>
-                <h4 className="py-4 text-teal-600">Tools I Used</h4>
-                <p className="text-gray-800 py-1">NextJS</p>
-                <p className="text-gray-800 py-1">Figma</p>
-                <p className="text-gray-800 py-1">Tailwind</p>
+                <h4 className="py-4 text-teal-600">Tools Used</h4>
+                <div className='flex justify-center'>
+                  <TbBrandNextjs className='text-4xl'/>
+                  <FaReact className='text-4xl text-blue-500'/>
+                  <TbBrandTailwind className='text-4xl text-cyan-400'/>
+                  <TbBrandFigma className='text-4xl text-red-500'/>
+                </div>
                 
                 <div className="flex justify-center gap-2">
                   <button className=" bg-slate-600 text-white px-4 py-2 rounded-md mt-5 border">
@@ -48,9 +56,10 @@ const Portfolio = () => {
                     </a>
                   </button>
                 </div>
+                <Link href="/projects" className=" text-teal-400">Learn More</Link>
               </div>
 
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white flex-1">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white md:w-96 lg:w-96">
                 <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">
                   POP IT
                 </h3>
@@ -58,11 +67,12 @@ const Portfolio = () => {
                   Me and my team created a Ninja Fruit replica with our own spin
                   off.
                 </p>
-                <h4 className="py-4 text-teal-600">Tools I Used</h4>
-                <p className="text-gray-800 py-1">Vanilla JavaScript</p>
-                <p className="text-gray-800 py-1">Canvas API</p>
-                <p className="text-gray-800 py-1">HTML</p>
-                <p className="text-gray-800 py-1">CSS</p>
+                <h4 className="py-4 text-teal-600">Tools Used</h4>
+                <div className='flex justify-center'>
+                  <DiJavascript className=' text-4xl text-yellow-500'/>
+                  <BsFiletypeHtml className='text-4xl text-red-500'/>
+                  <DiCss3 className='text-4xl text-blue-500'/>
+                </div>
 
                 <div className="flex justify-center gap-2">
                   <button className=" bg-slate-600 text-white px-4 py-2 rounded-md mt-5 border">
@@ -84,10 +94,12 @@ const Portfolio = () => {
                     </a>
                   </button>
                 </div>
+                <Link href="/projects" className=" text-teal-400">Learn More</Link>
               </div>
+              
             </div>
             <div className="md:flex flex-row">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white flex-1">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white md:w-96 lg:w-96">
                 <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">
                   Clonify
                 </h3>
@@ -95,9 +107,11 @@ const Portfolio = () => {
                   Me and my team created a mobile first Spotify replica with our
                   own spin off.
                 </p>
-                <h4 className="py-4 text-teal-600">Tools I Used</h4>
-                <p className="text-gray-800 py-1">React JS</p>
-                <p className="text-gray-800 py-1">React Icons</p>
+                <h4 className="py-4 text-teal-600">Tools Used</h4>
+                <div className='flex justify-center'>
+                  <FaReact className='text-4xl text-blue-500'/>
+                  <TbBrandFigma className='text-4xl text-red-500'/>
+                </div>
 
                 <div className="flex justify-center gap-2">
                   <button className=" bg-slate-600 text-white px-4 py-2 rounded-md mt-5 border">
@@ -119,24 +133,9 @@ const Portfolio = () => {
                     </a>
                   </button>
                 </div>
+                <Link href="/projects" className=" text-teal-400">Learn More</Link>
               </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white flex-1">
-                <h3 className="text-lg font-medium pt-8 pb-2 font-burtons ">
-                  Oppio
-                </h3>
-                <p className="py-2">
-                  Me and my team designed a mobile application for cancer
-                  patients.
-                </p>
-                <h4 className="py-4 text-teal-600">Tools I Used</h4>
-                <p className="text-gray-800 py-1">Figma</p>
-                <p className="text-gray-800 py-1">Figma Community</p>
-                <button className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 rounded-md mt-5">
-                  No link due to NDA
-                </button>
-              </div>
-
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white flex-1">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white md:w-96 lg:w-96">
                 <h3 className="text-lg font-medium pt-8 pb-2 font-burtons ">
                   Current Portfolio
                 </h3>
@@ -144,12 +143,13 @@ const Portfolio = () => {
                   I designed and programmed the current portfolio as mobile
                   first.
                 </p>
-                <h4 className="py-4 text-teal-600">Tools I Used</h4>
-                <p className="text-gray-800 py-1">Figma</p>
-                <p className="text-gray-800 py-1">Figma Community</p>
-                <p className="text-gray-800 py-1">Next JS</p>
-                <p className="text-gray-800 py-1">React Icons</p>
-                <p className="text-gray-800 py-1">Tailwind</p>
+                <h4 className="py-4 text-teal-600">Tools Used</h4>
+                <div className='flex justify-center'>
+                  <TbBrandNextjs className='text-4xl'/>
+                  <FaReact className='text-4xl text-blue-500'/>
+                  <TbBrandTailwind className='text-4xl text-cyan-400'/>
+                  <TbBrandFigma className='text-4xl text-red-500'/>
+                </div>
 
                 <div className="flex justify-center gap-2">
                   <button className=" bg-slate-600 text-white px-4 py-2 rounded-md mt-5 border">
@@ -162,7 +162,9 @@ const Portfolio = () => {
                       Live Demo
                     </a>
                   </button>
+                  
                 </div>
+                <Link href="/projects" className=" text-teal-400">Learn More</Link>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const About = () => {
+const projects = () => {
 	return (
 		<>
 		<div className="text-center text-3xl h-screen flex items-center justify-center flex-col font-burtons">
@@ -32,4 +32,4 @@ const About = () => {
 	)
 }
 
-export default About
+export default projects
