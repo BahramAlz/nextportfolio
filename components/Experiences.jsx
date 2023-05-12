@@ -4,8 +4,17 @@ import { BsFillMoonStarsFill, BsPatchCheckFill } from "react-icons/bs";
 import {
   AiOutlineDownload,
 } from "react-icons/ai";
+import { saveAs } from "file-saver";
 
 const Experiences = () => {
+
+  const saveFile = () => {
+    saveAs(
+      "../public/resume.pdf",
+      "resume.pdf"
+    );
+  };
+
 	return (
 			<section className="mt-16">
         <div className='flex flex-col justify-center items-center gap-4'>
@@ -13,8 +22,8 @@ const Experiences = () => {
               My Experiences
           </h2>
           <div className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 rounded-md gap-2 flex items-center w-32">
-                  <AiOutlineDownload className="cursor-pointer text-2xl" />
-                  <a href="#">Resume</a>
+              <AiOutlineDownload className="cursor-pointer text-2xl" onClick={saveFile}/>
+              <a href="#">Resume</a>
           </div>
         </div>
           <div className=" md:flex justify-center">
