@@ -99,7 +99,7 @@ const Portfolio = () => {
               
             </div>
             <div className="md:flex flex-row">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white md:w-96 lg:w-96">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white md:w-96 lg:w-96 bg">
                 <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">
                   Clonify
                 </h3>
@@ -153,7 +153,7 @@ const Portfolio = () => {
 
                 <div className="flex justify-center gap-2">
                   <button className=" bg-slate-600 text-white px-4 py-2 rounded-md mt-5 border">
-                    <a href="" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/BahramAlz/nextportfolio" target="_blank" rel="noopener noreferrer">
                       Github
                     </a>
                   </button>
