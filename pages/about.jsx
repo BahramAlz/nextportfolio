@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import Footer from "@/components/Footer";
 
 import 'animate.css';
 

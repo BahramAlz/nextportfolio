@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import Experiences from "@/components/Experiences";
 import Portfolio from "@/components/Portfolio";
 import Link from "next/link";
+import "animate.css"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -39,8 +40,8 @@ export default function Home() {
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <img src="v2.jpg" alt="" />
           </div>
-          <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+          <div className="text-center p-10 py-10 animate__animated animate__backInLeft">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl ">
               Bahram Al-Zuhairi
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
