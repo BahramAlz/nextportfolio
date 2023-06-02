@@ -10,8 +10,8 @@ const About = () => {
 	return (
 		<>
 		<div className={darkMode ? "dark" : ""}>
-      <main className=" bg-white px-10 dark:bg-gray-900 dark:text-white md:px-20 lg:px-40 pb-10 h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+      <main className=" bg-white px-10 dark:bg-gray-900 dark:text-white md:px-20 lg:px-40 md:h-screen">
+          <nav className="py-8 flex justify-between dark:text-white">
             <Link href="/"><h1 className="font-burtons text-xl">developedbyBahram</h1></Link>
             <ul className="flex items-center">
               <li>
@@ -22,21 +22,23 @@ const About = () => {
               </li>
             </ul>
           </nav>
-					<div className='font-medium pb-20 md:flex'>
+					<div className='font-medium pb-8 md:flex'>
 						<div className=' max-w-screen-md mt-10 animate__animated animate__backInLeft'>
-							<h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+							<h2 className="text-3xl text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
 								Bahram Al-Zuhairi
 							</h2>
 							<div className='w-86 mt-5 md:w-96'>
-								<h2 className='text-2xl'>Career Goal</h2>
 								<p className=' mt-5 w-'>
-									I'm a front-end student with a passion for coding, client interactions and COOL ANIMATIONS.
+									I'm a passionate front-end student who loves coding, client interactions, and creating immersive animations for websites.
 								</p>
 								<p className=' mt-5 w-'>
-									My hobbies include coding, coding and more coding with a lil bit of gaming that has been running since childhood.
+									I chose coding because I've always been a logical problem solver, and my lifelong love for gaming sparked my curiosity about the boundless potential of the internet. This drove me to dive into the development scene and leave my mark.
 								</p>
 								<p className=' mt-5 w-'>
-									Since I'm a Gamer at heart and loves coding, I'm looking for a opportunity to enhance the tools I have to put these two passions together in order to create cool animations and intense interactions that could be fullfilling but also a unique user experience.
+									Front-end development became my starting point, providing an opportunity to deepen my coding skills while reaching a wide audience through daily website usage. It's like a canvas where I can learn, code, and craft meaningful experiences for users.
+								</p>
+								<p className=' mt-5 w-'>
+									What excites me even more is that front-end development also allows me to enhance my communication and leadership abilities. I value these skills greatly and aspire to further develop them. It's not just about coding; it's about collaborating, effectively expressing ideas, and taking on leadership roles to drive successful projects. Joining the front-end world enables me to merge my passions, grow as a coder, and become a skilled leader capable of creating remarkable user experiences.
 								</p>
 							</div>
 						</div>
