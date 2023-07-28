@@ -1,8 +1,9 @@
 import React from 'react'
-import {TbBrandNextjs, TbBrandTailwind, TbBrandFigma} from 'react-icons/tb'
+import {TbBrandNextjs, TbBrandTailwind, TbBrandFigma, TbBrandThreejs} from 'react-icons/tb'
 import {FaReact} from 'react-icons/fa'
 import {DiJavascript, DiCss3} from 'react-icons/di'
 import {BsFiletypeHtml} from 'react-icons/bs'
+import {SiGreensock, SiWebgl, SiAframe} from 'react-icons/si'
 import Link from 'next/link'
 
 const Portfolio = () => {
@@ -159,6 +160,40 @@ const Portfolio = () => {
                   </button>
                   <button className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 rounded-md mt-5">
                     <a href="" target="_blank" rel="noopener noreferrer">
+                      Live Demo
+                    </a>
+                  </button>
+                  
+                </div>
+                <Link href="/projects" className=" text-teal-400">Learn More</Link>
+              </div>
+
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white md:w-96 lg:w-96">
+                <h3 className="text-lg font-medium pt-8 pb-2 font-burtons ">
+                  Yung Titties Experience
+                </h3>
+                <p className="py-2">
+                  With my team, I designed and programmed a game-based way to experience a newly released song.
+                </p>
+                <h4 className="py-4 text-teal-600">Tools Used</h4>
+                <div className='flex justify-center'>
+                  <TbBrandNextjs className='text-4xl'/>
+                  <FaReact className='text-4xl text-blue-500'/>
+                  <TbBrandFigma className='text-4xl text-red-500'/>
+                  <SiGreensock className='text-4xl text-green-900'/>
+                  <TbBrandThreejs className='text-4xl text-grey-900'/>
+                  <SiWebgl className='text-4xl text-red-500'/>
+                  <SiAframe className='text-4xl text-rose-500'/>
+                </div>
+
+                <div className="flex justify-center gap-2">
+                  <button className=" bg-slate-600 text-white px-4 py-2 rounded-md mt-5 border">
+                    <a href="https://github.com/BahramAlz/tittieteam" target="_blank" rel="noopener noreferrer">
+                      Github
+                    </a>
+                  </button>
+                  <button className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 rounded-md mt-5">
+                    <a href="https://titty-landing.vercel.app/" target="_blank" rel="noopener noreferrer">
                       Live Demo
                     </a>
                   </button>
