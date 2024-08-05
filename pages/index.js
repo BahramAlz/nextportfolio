@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 import Experiences from "@/components/Experiences";
 import Portfolio from "@/components/Portfolio";
 import Link from "next/link";
-import "animate.css"
+import "animate.css";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -48,15 +48,15 @@ export default function Home() {
               Front-end Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Front-end Developer student looking for internship.
-              
+              Good evening, I’m a React developer who loves building new things.
+              In addition to coding, I also make sure to stay updated with the
+              newest tech news!
             </p>
             <div className="text-xl">
               <Link href="/about" className=" text-teal-400">
-                  About Me
-                </Link>
+                About Me
+              </Link>
             </div>
-            
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
