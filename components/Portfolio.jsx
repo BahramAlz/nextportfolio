@@ -9,8 +9,8 @@ import { FaReact } from "react-icons/fa";
 import { DiJavascript, DiCss3 } from "react-icons/di";
 import { BsFiletypeHtml } from "react-icons/bs";
 import { SiGreensock, SiWebgl, SiAframe } from "react-icons/si";
+import { TbBrandTypescript } from "react-icons/tb";
 import Link from "next/link";
-
 
 const Portfolio = () => {
   return (
@@ -22,8 +22,7 @@ const Portfolio = () => {
         <div>
           <p className="text-md py-2 leading-8 max-w-xl mx-auto md:text-xl text-gray-800 dark:text-gray-200 text-center">
             Since the beginning of my journey as a Hyper Island student, I've
-            collaborated with talented people to create challenging projects for
-            the sake of experimenting and learning.
+            collaborated with talented people to solve real world problems and maybe some for fun :)
           </p>
         </div>
         <div className="lg:flex gap-10 flex-col justify-center items-center">
@@ -75,7 +74,7 @@ const Portfolio = () => {
               </h3>
               <p className="py-2">
                 Me and my team created a Ninja Fruit replica with our own spin
-                off.
+                off for a Game Jam.
               </p>
               <h4 className="py-4 text-teal-600">Tools Used</h4>
               <div className="flex justify-center">
@@ -142,6 +141,37 @@ const Portfolio = () => {
                 <button className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 rounded-md mt-5">
                   <a
                     href="https://titty-landing.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                </button>
+              </div>
+              <Link href="/projects" className=" text-teal-400">
+                Learn More
+              </Link>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 md:mx-3 dark:bg-white md:w-96 lg:w-96">
+              <h3 className="text-lg font-medium pt-8 pb-2 font-burtons ">
+                Remote Aero Landing Page
+              </h3>
+              <p className="py-2">
+                During my internship at Remote Aero, I worked on designing and
+                implementing a landing page that would help Remote Aero with
+                explaining what their mission is.
+              </p>
+              <h4 className="py-4 text-teal-600">Tools Used</h4>
+              <div className="flex justify-center">
+                <FaReact className="text-4xl text-blue-500" />
+                <TbBrandFigma className="text-4xl text-red-500" />
+                <TbBrandTypescript className="text-4xl " />
+              </div>
+
+              <div className="flex justify-center gap-2">
+                <button className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 rounded-md mt-5">
+                  <a
+                    href="https://remote.aero/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -64,6 +64,13 @@ const Experiences = () => {
                 <small className="text-gray-600">Intermediate</small>
               </div>
             </div>
+            <div className="flex">
+              <BsPatchCheckFill className="text-teal-600 mt-1" />
+              <div className="ml-3">
+                <h4>TypeScript</h4>
+                <small className="text-gray-600">Intermediate</small>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -84,6 +91,14 @@ const Experiences = () => {
               <BsPatchCheckFill className="text-teal-600 mt-1" />
               <div className="ml-3">
                 <h4>Python</h4>
+                <small className="text-gray-600">Beginner</small>
+              </div>
+            </div>
+
+            <div className="flex">
+              <BsPatchCheckFill className="text-teal-600 mt-1" />
+              <div className="ml-3">
+                <h4>PostgresSQL</h4>
                 <small className="text-gray-600">Beginner</small>
               </div>
             </div>

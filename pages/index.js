@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40 pb-10">
         <section>
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-10 mb-12 flex justify-between dark:text-white:">
             <Link href="/">
               <h1 className="font-burtons text-xl">developedbyBahram</h1>
             </Link>
