@@ -22,7 +22,8 @@ const Portfolio = () => {
         <div>
           <p className="text-md py-2 leading-8 max-w-xl mx-auto md:text-xl text-gray-800 dark:text-gray-200 text-center">
             Since the beginning of my journey as a Hyper Island student, I've
-            collaborated with talented people to solve real world problems and maybe some for fun :)
+            collaborated with talented people to solve real world problems and
+            maybe some for fun :)
           </p>
         </div>
         <div className="lg:flex gap-10 flex-col justify-center items-center">
@@ -158,8 +159,9 @@ const Portfolio = () => {
               </h3>
               <p className="py-2">
                 During my internship at Remote Aero, I worked on designing and
-                implementing a landing page that would help Remote Aero with
-                explaining what their mission is.
+                implementing a landing page aswell as a user interface for their
+                Mission Control room that Drone Operators could access through
+                the login.
               </p>
               <h4 className="py-4 text-teal-600">Tools Used</h4>
               <div className="flex justify-center">
